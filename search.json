@@ -111,6 +111,13 @@
     "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
   },
   {
+    "objectID": "content/AccousticDetections.html",
+    "href": "content/AccousticDetections.html",
+    "title": "AccousticDetections",
+    "section": "",
+    "text": "Example figures\n\n\n\n\n\n\n\n[Enter Boxplot description here]\n\n\n\n\n\n\n\n\n\n[Enter Frequency plot description here]\n\n\n\n\n\n\n\n\n\n[Enter plot description here]"
+  },
+  {
     "objectID": "content/QAQC.html",
     "href": "content/QAQC.html",
     "title": "PAM QA/QC Tools",
