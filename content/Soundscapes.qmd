@@ -11,15 +11,120 @@ PAMverse functionality for soundscape analysis provides analysts with a set of e
 
 
 ::::: columns
-::: {.column width="15%"}
-
-:::
-::: {.column width="70%"}
+::: {.column width="60%"}
 
 ![](/content/images/Soundscapes/PSD.png)
 
 :::
-::: {.column width="15%"}
+::: {.column width="40%"}
+
+\
+\
+
+[Enter PSD description here]
 
 :::
 :::::
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/density.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Density plot description here]
+
+:::
+:::::
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/HourlyLTSA.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Hourly LTSA description here]
+
+:::
+:::::
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/LTSA.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter LTSA description here]
+
+:::
+:::::
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/Timeseries.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Timeseries description here]
+
+:::
+:::::
+
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/Heat.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Heatplot description here]
+
+:::
+:::::
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/Scaled.timeseries.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Scaled Timeseries description here]
+
+:::
+:::::
+
+# Demo Script
