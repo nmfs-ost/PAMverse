@@ -121,6 +121,16 @@
     ]
   },
   {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The most up to date developments are typically available through GitHub. These will then be incorporated into the official CRAN package. For details on installing the most recent GitHub package version see the instructions here.\nPAMscapes: CRAN package; GitHub repository\nPAMmisc: CRAN package; GitHub repository\nPAMpal: Documentation; CRAN package; GitHub repository\nOther tutorials:",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
     "objectID": "content/QAQC.html",
     "href": "content/QAQC.html",
     "title": "PAM QA/QC Tools",
