@@ -3,3 +3,71 @@ title: "AccousticDetections"
 format: html
 ---
 
+::::: columns
+::: {.column width="15%"}
+
+:::
+::: {.column width="70%"}
+![](/content/images/AcousticDetections/Shiny.detections.png)
+:::
+::: {.column width="15%"}
+
+:::
+:::::
+
+
+
+# Example figures
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/AcousticDetections/Boxplot.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Boxplot description here]
+
+:::
+:::::
+
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/AcousticDetections/Frequencyscene1.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter Frequency plot description here]
+
+:::
+:::::
+
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/AcousticDetections/Scene.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter plot description here]
+
+:::
+:::::
