@@ -14,7 +14,7 @@
     "href": "content/Soundscapes.html",
     "title": "Soundscapes",
     "section": "",
-    "text": "PAMverse functionality for soundscape analysis provides analysts with a set of easy use standard visualizations to summarize soundscape data and integrate them with environmental or other data streams. The soundscape explorer shiny app provides a way to interactively view various figures of your own data, apply filters or customizations, and copy the code to recreate that figure in your own analysis script. An overview of the figures currently available and their customizations are included below.\n\n\nExample figures",
+    "text": "PAMverse functionality for soundscape analysis provides analysts with a set of easy use standard visualizations to summarize soundscape data and integrate them with environmental or other data streams. The soundscape explorer shiny app provides a way to interactively view various figures of your own data, apply filters or customizations, and copy the code to recreate that figure in your own analysis script. An overview of the figures currently available and their customizations are included below.\n\n\nExample figures\n\n\n\n\n\n\n\n[Enter PSD description here]\n\n\n\n\n\n\n\n\n\n[Enter Density plot description here]\n\n\n\n\n\n\n\n\n\n[Enter Hourly LTSA description here]\n\n\n\n\n\n\n\n\n\n[Enter LTSA description here]\n\n\n\n\n\n\n\n\n\n[Enter Timeseries description here]\n\n\n\n\n\n\n\n\n\n[Enter Heatplot description here]\n\n\n\n\n\n\n\n\n\n[Enter Scaled Timeseries description here]\n\n\n\n\nDemo Script",
     "crumbs": [
       "Soundscapes"
     ]
