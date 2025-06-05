@@ -1,99 +1,36 @@
 ---
-title: "Home"
-subtitle: "Template for development of regional lab manuals as part of the Passive Acoustic Monitoring Strategic Initiative"
+title: "PAMverse"
 page-layout: full
 ---
 
-## PAM SI Lab Manual Template
+The PAMverse is a collection of open source R packages developed by Taiki Sakai to facilitate the analysis of passive acoustic data and the creation of standardized data products that summarize large datasets. Focal areas include a QA/QC tool, soundscape visualizations, acoustic detection summaries, and integration of multiple data types. Many of the PAMverse tools use Shiny apps as an easy way to explore possible figures, experiment with different plot settings, access code chunks to seamlessly customize a figure to your needs, or annotate data quality. 
 
-A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.
+::::: columns
+::: {.column width="15%"}
 
-## Required Pages
+:::
+::: {.column width="70%"}
+![](content/images/Index/PAMverse.triangle.png)
+:::
+::: {.column width="15%"}
 
-In order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.
-
--   Home Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.
--   [Lab Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/LabManagement.html)
--   [Field Methods](https://nmfs-ost.github.io/PAM_template_lab_manual/content/FieldMethods.html)
--   [Data Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/DataManagement.html)
--   [Hardware](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Hardware.html)
--   [Software](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Software.html)
--   [Analysis](https://nmfs-ost.github.io/PAM_template_lab_manual/content/AnalysisMethods.html)
--   [Reporting](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Reporting.html)
+:::
+:::::
 
 
-## Optional Pages
+The PAMverse consists of three R packages: 
 
-Here are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team
+  * PAMscapes: Functionality includes the QAQC tools as well as the analytical and visualization functions for soundscapes, acoustic detections, and integrative products. Most of the recent developments from the PAM SI are included here. 
+  * PAMmisc: A collection of helper functions that support the other packages including loading environmental data that aligns with a given dataset. 
+  * PAMpam: A collection of functions that work directly with PAMGuard data.
 
--   [Shared values/lab culture](https://nmfs-ost.github.io/PAM_template_lab_manual/content/SharedValues.html)
--   [Onboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Onboarding.html)
--   [Offboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Offboarding.html)
--   [Field Methods](https://nmfs-ost.github.io/PAM_template_lab_manual/content/FieldMethods.html)
--   [Open Science](https://nmfs-ost.github.io/PAM_template_lab_manual/content/OpenScience.html)
--   [Publications/Presentations](https://nmfs-ost.github.io/PAM_template_lab_manual/content/PublicationsPresentations.html)
--   [Resources](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Resources.html)
+# Integration with other PAM SI developments
+The overarching goal of the PAM SI is to create a standardized, cloud-based, and open source workflow for the analysis of passive acoustic data. The PAMverse provides the standardized and open source data products that can be used in conservation and management contexts as a decision support tool. 
 
-## How To Use This Template
+While PAMverse tools provide as much flexibility to the users as possible, using these tools in tandem with other PAM SI developments provides the most seamless user experience. For example, detection data exported from the Makara database will be automatically formatted in a way to seamlessly use as inputs to PAMverse functions for plot generation. Datasets not exported from Makara are still functional with these tools, but may require some reformatting. 
 
-This template will create a Quarto website that each lab can copy and edit with their own lab information. Follow the steps below to copy this template to your lab's GitHub
+![](content/images/Index/Cloud.analysis.png)
 
-1.  Open [this repository on GitHub](https://github.com/nmfs-ost/PAM_template_lab_manual)
+# Installing PAMverse packages
 
-2.  Click on the 'Use this template' button in the top right, select 'Create new repository'
-
-    ![](content/images/repoTemplate.png)
-
-3.  Edit repository settings
-
-    -   Select the 'Include all branches' option
-
-    -   Select your lab organization or yourself as the owner and set the repository name to 'Lab name Lab Manual'
-
-    -   Make description "Lab manual for 'insert lab name and FMC'"
-
-    -   Make the repo public
-
-        ![](content/images/RepoSettings.png)
-
-4.  Click create repository
-
-5.  Turn on GitHub pages under Settings-\>Pages. You will set pages to be made from the gh-pages branch and root directory
-
-    ![](content/images/branches.png)
-
-6.  Update 'Actions' settings
-
-    -   Under Settings -\> Actions -\> General -\> Actions permissions select 'Allow all actions and reusable workflows'. Select save
-
-        ![](content/images/actions.png){width="323"}
-
-    -   Under Settings -\> Actions -\> General -\> Workflow permissions select 'Read and write permissions'
-
-        ![](content/images/workflowPermissions.png)
-
-        ::: callout-important
-        ## Note: Both of these settings may already be selected but you have to click save for both
-        :::
-
-7.  Return to the main page of the repo to edit your website
-
-    -   Click on 'Code' in the top left
-
-    -   Click on the settings button next to the 'About' section on the right side of the repository
-
-    -   Select 'Use your GitHub Pages website'. This should autopopulate the website
-
-    -   Select 'Save Changes'
-
-        ![](content/images/website.png)
-
-8.  Your lab manual is now created! Go [here](https://sael-swfsc.github.io/OpenScience/content/labManual.html) for more information on building your lab manual.
-
-## Example Manuals
-
-Here are two lab manuals to pull inspiration from
-
--   [SWFSC Southwest Acoustic Ecology Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
--   [Faylab Manual](https://thefaylab.github.io/lab-manual/)
--   [SWFSC Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/)
+# PAMverse Demo

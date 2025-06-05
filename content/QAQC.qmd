@@ -1,0 +1,40 @@
+---
+title: "PAM QA/QC Tools"
+format: html
+---
+
+The PAMverse QA/QC tools available in the PAMscapes package provide analysts with four standard output figures to identify data gaps, compromised time periods or frequencies, and general recorder. Once the outputs are generated, they can be interactively viewed and annotated using a Shiny app. Those annotations can be exported for other data management purposes, such as the data quality fields in the Makara database. This process is adaptable to any recorder type that generates wav files, though it was originally developed for SoundTraps.  
+
+The four figures include: 
+
+  1. Evaluation of frequency response: one-third octave levels (TOL) using the second minute of data from each file
+  2. Evaluation of data gaps:  Delta in Timestamps between wav files: 
+  3. Evaluation of data gaps: Deviations in Expected Timestamps based of wav file lengths: 
+  4. Evaluation of recorder performance (only for SoundTraps): internal temperature and internal/external voltage
+
+
+::::: columns
+::: {.column width="15%"}
+
+:::
+::: {.column width="70%"}
+![](/content/images/QAQC/QAQC.png)
+:::
+::: {.column width="15%"}
+
+:::
+:::::
+
+
+# General Workflow
+  * Point to a directory of .wav files
+  * Required inputs
+  * Save outputs in a directory
+  * Open shiny app and review/annotate compromised data
+  
+# Opportunities to expand functionality 
+  * Overview of how to provide NEFSC streamlined functionality to other groups
+
+# Accessing tools
+  * Instaling the package?
+  * R scripts that NEFSC uses?
