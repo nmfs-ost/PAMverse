@@ -26,6 +26,21 @@ PAMverse functionality for soundscape analysis provides analysts with a set of e
 :::
 :::::
 
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Soundscapes/PSD.day.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+[Enter PSD (by day) description here]
+
+:::
+:::::
 
 ::::: columns
 ::: {.column width="60%"}
