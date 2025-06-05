@@ -3,3 +3,12 @@ title: "Resources"
 format: html
 ---
 
+The most up to date developments are typically available through GitHub. These will then be incorporated into the official CRAN package. For details on installing the most recent GitHub package version see the instructions [here](https://nmfs-ost.github.io/PAMverse/#installing-pamverse-packages).
+
+PAMscapes: [CRAN package](https://cran.r-project.org/web/packages/PAMscapes/index.html); [GitHub repository](https://github.com/TaikiSan21/PAMscapes)
+
+PAMmisc: [CRAN package](https://cran.r-project.org/web/packages/PAMmisc/index.html); [GitHub repository](https://github.com/TaikiSan21/PAMmisc) 
+
+PAMpal: [Documentation](https://taikisan21.github.io/PAMpal/); [CRAN package](https://cran.r-project.org/web/packages/PAMpal/index.html); [GitHub repository](https://github.com/TaikiSan21/PAMpal)
+
+Other tutorials: 
