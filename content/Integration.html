@@ -319,8 +319,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/Integration.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/Integration.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -345,8 +351,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A primary goal of recent PAMverse developments is to provide a streamlined way for passive acoustic researchers to integrate data from multiple data streams into standardized, informative data products that can be used as a decision support tool. PAMverse includes multiple built in functionality to integrate relevant environmental data with acoustic detection or soundscape data as well as directly integrate soundscape data with acoustic detection information. The examples below are the initial set of figures that are currently available, if there is a figure of interest that could be repeatedly used for your research or by others, please reach to Taiki to explore incorporating it into the package.</p>
+<section id="examples" class="level1">
+<h1>Examples</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="../content/images/Integrations/finPsd.png" class="img-fluid"></p>
+</div><div class="column" style="width:40%;">
+<p><br>
+<br>
+</p>
+<p>Example of pairing detection data with soundscape metrics. Detection data loaded with <code>loadDetectionData</code> can be matched to soundscape metrics with <code>matchDetectionData.</code> Times that coincide with hours of positive fin whale presence are marked as <code>TRUE</code>, non-overlapping times marked as <code>FALSE.</code></p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="../content/images/Integrations/windPsd.png" class="img-fluid"></p>
+</div><div class="column" style="width:40%;">
+<p><br>
+<br>
+</p>
+<p>Example of pairing environmental data (wind speed data from the <a href="https://rda.ucar.edu/datasets/d084001/">GFS model</a>) to soundscape metrics using the <code>matchGFS</code> function.</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -781,7 +811,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/Integration.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/Integration.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/Integration.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/Integration.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
