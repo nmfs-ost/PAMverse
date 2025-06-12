@@ -3,3 +3,39 @@ title: "Integration"
 format: html
 ---
 
+A primary goal of recent PAMverse developments is to provide a streamlined way for passive acoustic researchers to integrate data from multiple data streams into standardized, informative data products that can be used as a decision support tool. PAMverse includes multiple built in functionality to integrate relevant environmental data with acoustic detection or soundscape data as well as directly integrate soundscape data with acoustic detection information. The examples below are the initial set of figures that are currently available, if there is a figure of interest that could be repeatedly used for your research or by others, please reach to Taiki to explore incorporating it into the package. 
+
+# Examples
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Integrations/finPsd.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+Example of pairing detection data with soundscape metrics. Detection data loaded with `loadDetectionData` can be matched to soundscape metrics with `matchDetectionData.` Times that coincide with hours of positive fin whale presence are marked as `TRUE`, non-overlapping times marked as `FALSE.`
+
+:::
+:::::
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/Integrations/windPsd.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+Example of pairing environmental data (wind speed data from the [GFS model](https://rda.ucar.edu/datasets/d084001/)) to soundscape metrics using the `matchGFS` function. 
+
+:::
+:::::
