@@ -351,11 +351,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>PAMverse functionality for summarizing acoustic detection data includes multiple standardized data products that can summarize acoustic presence across multiple platforms, years, and species or sounds of interest. The Detection Explorer shiny app allows users to explore the available figures with their own data, apply customizations, and copy to the code chunk to integrate a figure into their own analysis script. Acoustic detection data exported from Makara will have the most streamlined user experience; however, the Detection Explorer app includes an interactive data management tool “loadDetectionData” that allows users to troubleshoot formatting issues and pair columns in their data to the expected column names used by PAMverse.</p>
 <div class="columns">
 <div class="column" style="width:15%;">
 
 </div><div class="column" style="width:70%;">
-<p><img src="../content/images/AcousticDetections/Shiny.detections.png" class="img-fluid"></p>
+<p><img src="../content/images/AcousticDetections/ShinyDetectionsUpdated.png" class="img-fluid"></p>
 </div><div class="column" style="width:15%;">
 
 </div>
@@ -369,17 +370,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Boxplot description here]</p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img src="../content/images/AcousticDetections/Frequencyscene1.png" class="img-fluid"></p>
-</div><div class="column" style="width:40%;">
-<p><br>
-<br>
-</p>
-<p>[Enter Frequency plot description here]</p>
+<p><code>plotDetectionBoxplot</code> provides a summary of the number of days a species or sound source of interest was present in a given week. Customizations include summarizing across all sites and years loaded or examining trends across sites or years with multiple facets.</p>
 </div>
 </div>
 <div class="columns">
@@ -389,7 +380,27 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter plot description here]</p>
+<p><code>plotAcousticScene</code> provides a daily summary of acoustic presence over a time series for a sound type of interest with the ability to add shaded areas to indicate data gaps. The order of sound types and spacing along the y-axis is user specified.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="../content/images/AcousticDetections/Frequencyscene1.png" class="img-fluid"></p>
+</div><div class="column" style="width:40%;">
+<p><br>
+<br>
+</p>
+<p><code>plotAcousticScene</code> also provides the functionality to assign y-axis limits to each sound source that represent the frequency range of the sound source. This provides a more nuanced summary of potential temporal and spectral acoustic partitioning of the soundscape.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="../content/images/AcousticDetections/Polar.png" class="img-fluid"></p>
+</div><div class="column" style="width:40%;">
+<p><br>
+<br>
+</p>
+<p><code>plotPolarDetections</code> provides a summary of the number of days a species or sound source of interest was present in a given month, presented as a polar plot to emphasize seasonal trends. Customizations include changing the angular axis of the plot to hour of the day to emphasize diel patterns, or plotting detections as a percentage of available effort instead of raw count.</p>
 </div>
 </div>
 

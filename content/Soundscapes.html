@@ -352,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>PAMverse functionality for soundscape analysis provides analysts with a set of easy use standard visualizations to summarize soundscape data and integrate them with environmental or other data streams. The soundscape explorer shiny app provides a way to interactively view various figures of your own data, apply filters or customizations, and copy the code to recreate that figure in your own analysis script. An overview of the figures currently available and their customizations are included below.</p>
+<p>PAMverse functionality for soundscape analysis provides analysts with a set of easy use standard visualizations to summarize soundscape data and integrate them with environmental or other data streams. These tools are built with standard daily, hybrid milli-decade (HMD) soundscape metric as the expected input. This HMD product can be generated using PyPAM/PBP or MANTA. The Soundscape Explorer shiny app provides a way to interactively view various figures of your own data, apply filters or customizations, and copy the code to recreate that figure in your own analysis script. An overview of the figures currently available and their customizations are included below.</p>
 <p><img src="../content/images/Soundscapes/Shiny.png" class="img-fluid"></p>
 <section id="example-figures" class="level1">
 <h1>Example figures</h1>
@@ -363,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[testing Enter PSD description here]</p>
+<p><code>plotPSD</code> provides the median power spectral density for the full time series of data loaded. Customizations include adding specified quantile range or density shading, summarizing by temporal or spatial bins (e.g.&nbsp;hour, month, year, platform), and adding multiple facets by factor category. Additionally, if other categorical data of interest are loaded, this figure can be customized to summarize over other variables, such as environmental variables or presence/absence of a specific sound source.</p>
 </div>
 </div>
 <div class="columns">
@@ -373,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter PSD (by day) description here]</p>
+<p>Example customization of the same PSD plot shown above, with median PSD and quantile shading for each day of data visualized.</p>
 </div>
 </div>
 <div class="columns">
@@ -383,7 +383,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Density plot description here]</p>
+<p>Example customization of the PSD plots shown above, visualizing density rather than a median and quantile range.</p>
 </div>
 </div>
 <div class="columns">
@@ -393,7 +393,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Hourly LTSA description here]</p>
+<p><code>plotHourlyLevel</code> provides a summary of the median SPL for each hour of the day at each frequency. This visualization allows investigation to diel trends over the dataset.</p>
 </div>
 </div>
 <div class="columns">
@@ -403,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter LTSA description here]</p>
+<p><code>plotLTSA</code> provides a Long-term Spectral Average (LTSA) for the entire dataset loaded.</p>
 </div>
 </div>
 <div class="columns">
@@ -413,7 +413,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Timeseries description here]</p>
+<p><code>plotTimeseries</code> provides a time series of SPL for a single HMD band of interest with the flexibility to add user specified quantile range shading, compare across multiple platforms, or visualize as a heatmap.</p>
 </div>
 </div>
 <div class="columns">
@@ -423,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Heatplot description here]</p>
+<p>Example customization of the <code>plotTimeseries</code> function above, providing a heatmap of the median hourly SPL of a specified HMD band for each day. This visualization allows investigation of diel patterns over time.</p>
 </div>
 </div>
 <div class="columns">
@@ -433,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br>
 <br>
 </p>
-<p>[Enter Scaled Timeseries description here]</p>
+<p><code>plotScaledTimeseries</code> provides the functionality to examine the timeseries of a single HMD band and a second variable of interest in a scaled figure with two y-axes. The second axis is highly customizable with examples including sea surface temperature or daily monitoring effort.</p>
 </div>
 </div>
 </section>
