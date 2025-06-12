@@ -3,12 +3,14 @@ title: "AccousticDetections"
 format: html
 ---
 
+PAMverse functionality for summarizing acoustic detection data includes multiple standardized data products that can summarize acoustic presence across multiple platforms, years, and species or sounds of interest. The Detection Explorer shiny app allows users to explore the available figures with their own data, apply customizations, and copy to the code chunk to integrate a figure into their own analysis script. Acoustic detection data exported from Makara will have the most streamlined user experience; however, the Detection Explorer app includes an interactive data management tool “loadDetectionData” that allows users to troubleshoot formatting issues and pair columns in their data to the expected column names used by PAMverse. 
+
 ::::: columns
 ::: {.column width="15%"}
 
 :::
 ::: {.column width="70%"}
-![](/content/images/AcousticDetections/Shiny.detections.png)
+![](/content/images/AcousticDetections/ShinyDetectionsUpdated.png)
 :::
 ::: {.column width="15%"}
 
@@ -31,25 +33,7 @@ format: html
 \
 \
 
-[Enter Boxplot description here]
-
-:::
-:::::
-
-
-
-::::: columns
-::: {.column width="60%"}
-
-![](/content/images/AcousticDetections/Frequencyscene1.png)
-
-:::
-::: {.column width="40%"}
-
-\
-\
-
-[Enter Frequency plot description here]
+`plotDetectionBoxplot` provides a summary of the number of days a species or sound source of interest was present in a given week. Customizations include summarizing across all sites and years loaded or examining trends across sites or years with multiple facets. 
 
 :::
 :::::
@@ -67,7 +51,43 @@ format: html
 \
 \
 
-[Enter plot description here]
+`plotAcousticScene` provides a daily summary of acoustic presence over a time series for a sound type of interest with the ability to add shaded areas to indicate data gaps. The order of sound types and spacing along the y-axis is user specified. 
+
+:::
+:::::
+
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/AcousticDetections/Frequencyscene1.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+`plotAcousticScene` also provides the functionality to assign y-axis limits to each sound source that represent the frequency range of the sound source. This provides a more nuanced summary of potential temporal and spectral acoustic partitioning of the soundscape. 
+
+:::
+:::::
+
+
+
+::::: columns
+::: {.column width="60%"}
+
+![](/content/images/AcousticDetections/Polar.png)
+
+:::
+::: {.column width="40%"}
+
+\
+\
+
+`plotPolarDetections` provides a summary of the number of days a species or sound source of interest was present in a given month, presented as a polar plot to emphasize seasonal trends. Customizations include changing the angular axis of the plot to hour of the day to emphasize diel patterns, or plotting detections as a percentage of available effort instead of raw count.
 
 :::
 :::::

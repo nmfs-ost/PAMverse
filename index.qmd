@@ -20,9 +20,9 @@ The PAMverse is a collection of open source R packages developed by Taiki Sakai 
 
 The PAMverse consists of three R packages: 
 
-  * PAMscapes: Functionality includes the QAQC tools as well as the analytical and visualization functions for soundscapes, acoustic detections, and integrative products. Most of the recent developments from the PAM SI are included here. 
-  * PAMmisc: A collection of helper functions that support the other packages including loading environmental data that aligns with a given dataset. 
-  * PAMpam: A collection of functions that work directly with PAMGuard data.
+  * [PAMscapes](https://github.com/TaikiSan21/PAMscapes): Functionality includes the QAQC tools as well as the analytical and visualization functions for soundscapes, acoustic detections, and integrative products. Most of the recent developments from the PAM SI are included here. 
+  * [PAMmisc](https://github.com/TaikiSan21/PAMmisc): A collection of helper functions that support the other packages including loading environmental data that aligns with a given dataset. 
+  * [PAMpam](https://github.com/TaikiSan21/PAMpal): A collection of functions that work directly with PAMGuard data.
 
 # Integration with other PAM SI developments
 The overarching goal of the PAM SI is to create a standardized, cloud-based, and open source workflow for the analysis of passive acoustic data. The PAMverse provides the standardized and open source data products that can be used in conservation and management contexts as a decision support tool. 
@@ -32,5 +32,17 @@ While PAMverse tools provide as much flexibility to the users as possible, using
 ![](content/images/Index/Cloud.analysis.png)
 
 # Installing PAMverse packages
+All PAMverse packages are available on CRAN, and can be easily installed with `install.packages`:
+```{r, eval=FALSE}
+install.packages("PAMmisc")
+install.packages("PAMpal")
+install.packages("PAMscapes")
+```
+However, many are under very active development, so in order to access the most up-to-date version it may be necessary to install them directly from GitHub. This does generally require that you have also installed the appropriate version of [Rtools](https://cran.r-project.org/bin/windows/Rtools/) for your version of R, and can be prone to more errors (especially on computers with strict IT regulations). Installation can either be done with `devtools::install_github` or `pak::pkg_install`, with the `pak` option typically being more reliable (this does mean you will have to additionally install `pak` from CRAN):
+```{r, eval=FALSE}
+pak::pkg_install("TaikiSan21/PAMmisc")
+pak::pkg_install("TaikiSan21/PAMpal")
+pak::pkg_install("TaikiSan21/PAMscapes")
+```
 
 # PAMverse Demo
