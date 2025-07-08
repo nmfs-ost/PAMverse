@@ -3,6 +3,9 @@ title: "PAMverse"
 page-layout: full
 ---
 
+*This project is a part of NOAA Fisheries [PAM SI coordination](https://nmfs-ost.github.io/PAM_National_Network/content/SI%20coord/SI_Coordination.html)*
+
+
 The PAMverse is a collection of open source R packages developed by Taiki Sakai to facilitate the analysis of passive acoustic data and the creation of standardized data products that summarize large datasets. Focal areas include a QA/QC tool, soundscape visualizations, acoustic detection summaries, and integration of multiple data types. Many of the PAMverse tools use Shiny apps as an easy way to explore possible figures, experiment with different plot settings, access code chunks to seamlessly customize a figure to your needs, or annotate data quality. 
 
 ::::: columns
